@@ -76,14 +76,14 @@
     <div class="col-3">
       <div class="dev">
         <img src="img/sec-401.png" alt="game">
-        <button id="btn1" class="button btn1" onclick="showNextQuiz(3)">UX:how to interact with things</button>
+        <button id="btn1" class="button btn1" onclick="showNextQuiz(3, 'UX')">UX:how to interact with things</button>
       </div>
     </div> 
     <!-- 2nd row -->
     <div class="col-3">
       <div class="dev">
         <img src="img/sec402.png" alt="web">
-        <button id="btn1" class="button btn1" onclick="showNextQuiz(3)">Logic:how things work</button>
+        <button id="btn1" class="button btn1" onclick="showNextQuiz(3, 'Logic')">Logic:how things work</button>
       </div>
     </div>
   </div>
@@ -96,21 +96,21 @@
     <div class="col-3">
       <div class="dev">
         <img src="img/501.png" alt="game">
-        <button id="btn1" class="button btn1" onclick="showNextQuiz(4)">Windows</button>
+        <button id="btn1" class="button btn1" onclick="showNextQuiz(4, 'Windows')">Windows</button>
       </div>
     </div> 
     <!-- 2nd row -->
     <div class="col-3">
       <div class="dev">
         <img src="img/mac502.png" alt="web">
-        <button id="btn1" class="button btn1" onclick="showNextQuiz(4)">Mac</button>
+        <button id="btn1" class="button btn1" onclick="showNextQuiz(4,'Mac')">Mac</button>
       </div>
     </div>
     <!-- 3rd row -->
     <div class="col-3">
       <div class="dev">
         <img src="img/cross503.png" alt="web">
-        <button id="btn1" class="button btn1" onclick="showNextQuiz(4)">PC/Console Game</button>
+        <button id="btn1" class="button btn1" onclick="showNextQuiz(4, 'CrosPlatForm')">Cross Platform</button>
       </div>
     </div> 
   </div>
@@ -121,13 +121,13 @@
   <div class="row">
     <div class="col-3">
       <div class="dev">
-        <button id="btn1" class="button btn1" onclick="showNextQuiz(5)">Yes</button>
+        <button id="btn1" class="button btn1" onclick="showNextQuiz(5,'Yes')">Yes</button>
       </div>
     </div> 
     <!-- 2nd row -->
     <div class="col-3">
       <div class="dev">
-        <button id="btn1" class="button btn1" onclick="showNextQuiz(5)">No</button>
+        <button id="btn1" class="button btn1" onclick="showNextQuiz(5,'No')">No</button>
       </div>
     </div>
   </div>
@@ -138,7 +138,7 @@
       <h1>Result</h1>
       <div class="row">
         <div class="col-3">
-          <div id="result">
+          <div id="result" style="padding:20px;">
             
           </div>
         </div>
