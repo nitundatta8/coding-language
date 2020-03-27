@@ -2,9 +2,83 @@ img{
   height: 250px;
   width: 300px;
 }
-.intro img{
+/* .intro img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+} */
+
+.code{
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 20px;
+  color: blue;
 }
+.intro{
+  margin: 10px;
+  width: 1000px;
+  height: 1000px;
+  background-color: rgb(200, 236, 247);
+}
+.intro img{
+  width: 1000px;
+  height: 300px;
+}
+.center{
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+}
+h4{
+  font-family: 'Times New Roman', Times, serif;
+}
+.para{
+  font-style: italic;
+  color: black;
+  
+}
+a{
+  color: white;
+}
+#quiz h1{
+  text-align: center;
+}
+/* button  */
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#btn1{
+  background-color: rgb(116, 204, 119); /* Green */
+  
+}
+#btn2{
+  background-color: rgb(32, 104, 133); /* Green */
+  
+}
+#btn3{
+  background-color: rgb(24, 179, 153); /* Green */
+  
+}
+/* button  */
+
+/* section */
+ 
+/* section */
+
+/* img{
+  height: 100px;
+  width: 100px;
+} */

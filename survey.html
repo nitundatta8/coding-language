@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Coding Languages</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Section 0-->
+        <div id="sec-0">
+            <h1>Quiz 1:Why Do You Want to Learn to Code?</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="dev">
+                        <img src="img/dev.png" alt="dev">
+                        <button id="btn1" class="button" onclick="showNextQuiz(1, 'developer')">Be a professional developer</button>
+                    </div>
+
+                </div>
+                <!-- 2nd row -->
+                <div class="col-md-4">
+                    <div class="start-up">
+                        <img src="img/start-up.png" alt="start-up">
+                        <button id="btn2" class="button" onclick="showNextQuiz(1, 'startup')">Run a startup</button>
+                    </div>
+                </div>
+                <!-- 3rd row -->
+                <div class="col-md-4">
+                    <div class="fun">
+                        <img src="img/built-fun.png" alt="fun">
+                        <button id="btn3" class="button" onclick="showNextQuiz(1,'fun')"> Build somthing fun</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  section 1-->
+        <div id="sec-1">
+            <h1>Quiz 2:What Sort of Developer Do You Want to Be?</h1>
+            <!-- 1st row -->
+            <div class="row">
+            
+            <div class="col-3">
+                <div class="dev">
+                    <img src="img/sec-2-web.png" alt="web">
+                    <button id="btn1" class="button btn1" onclick="showNextQuiz(2,'Web')">Web</button>
+                </div>
+            </div>
+            <!-- 2nd row -->
+            <div class="col-3">
+                <div class="dev">
+                    <img src="img/sec-2-moble.png" alt="moble">
+                    <button id="btn1" class="button btn1" onclick="showNextQuiz(2,'Mobile')">Mobile</button>
+                </div>
+            </div>
+            <!-- 3rd row -->
+            <div class="col-3">
+                <div class="dev">
+                    <img src="img/sec-2-dest.png" alt="dest">
+                    <button id="btn1" class="button btn1" onclick="showNextQuiz(2,'Desktop')">Desktop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 2 -->
+    <div id="sec-2">
+        <h1>Quiz 3:What Do You Find More Interesting?</h1>
+        <div class="row">
+            <div class="col-3">
+                <div class="dev">
+                    <img src="img/sec-401.png" alt="game">
+                    <button id="btn1" class="button btn1" onclick="showNextQuiz(3, 'UX')">UX:how to interact with things</button>
+
+                </div>
+            </div>
+            <!-- 2nd row -->
+            <div class="col-3">
+                <div class="dev">
+                    <img src="img/sec402.png" alt="web">
+                    <button id="btn1" class="button btn1" onclick="showNextQuiz(3, 'Logic')">Logic:how things work</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 3 -->
+    <div id="sec-3">
+        <h1>Quiz 4:What Platform?</h1>
+        <div class="row">
+            <div class="col-3">
+                <div class="dev">
+                    <img src="img/501.png" alt="game">
+                    <button id="btn1" class="button btn1" onclick="showNextQuiz(4, 'Windows')">Windows</button>
+
+                </div>
+            </div>
+            <!-- 2nd row -->
+            <div class="col-3">
+                <div class="dev">
+                    <img src="img/mac502.png" alt="web">
+                    <button id="btn1" class="button btn1" onclick="showNextQuiz(4,'Mac')">Mac</button>
+                </div>
+            </div>
+            <!-- 3rd row -->
+            <div class="col-3">
+                <div class="dev">
+                    <img src="img/cross503.png" alt="web">
+                    <button id="btn1" class="button btn1" onclick="showNextQuiz(4, 'CrosPlatForm')">Cross Platform</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 4 -->
+    <div id="sec-4">
+        <h1>Quiz 5:Do you already know a programming language?</h1>
+        <div class="row">
+            <div class="col-3">
+                <div class="dev">
+                    <button id="btn1" class="button btn1" onclick="showNextQuiz(5,'Yes')">Yes</button>
+                </div>
+            </div>
+            <!-- 2nd row -->
+            <div class="col-3">
+                <div class="dev">
+                    <button id="btn1" class="button btn1" onclick="showNextQuiz(5,'No')">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 5 -->
+
+    <div id="sec-5" class="jumbotron">
+
+      <div >
+        <h1 class="display-4">Suggestion</h1>
+        <p class="lead" id="result"></p>
+        <hr class="my-4">
+       <p class="lead">
+          <a class="btn btn-primary btn-lg" href="index.html" role="button">Start Again</a>
+        </p>
+      </div>
+
+       
+    </div>
+  </div>
+</body>
+
+</html>
