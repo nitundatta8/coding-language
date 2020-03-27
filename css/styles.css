@@ -2,9 +2,35 @@ img{
   height: 250px;
   width: 300px;
 }
-.intro img{
+/* .intro img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+} */
+
+.intro{
+  margin: 10px;
+  width: 1000px;
+  height: 1000px;
+  background-color: rgb(200, 236, 247);
+}
+.center{
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+}
+h4{
+  font-family: 'Times New Roman', Times, serif;
+}
+.para{
+  font-style: italic;
+  color: blue;
+  
+}
+a{
+  color: white;
+}
+#quiz h1{
+  text-align: center;
 }
