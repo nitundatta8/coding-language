@@ -12,14 +12,14 @@
 
 <body>
   <div class="container">
-    
-    <div id="sec-1">
+    <!-- Section 0-->
+    <div id="sec-0">
       <h1>Quiz 1:Why Do You Want to Learn to Code?</h1>
       <div class="row">
         <div class="col-md-4">
           <div class="dev">
             <img src="img/dev.png" alt="dev">
-            <button id="btn1" class="button btn1" onclick="showNextQuiz(2)">Be a professional developer</button>
+            <button id="btn1" class="button" onclick="showNextQuiz(1, 'developer')">Be a professional developer</button>
           </div>
           
         </div>
@@ -27,66 +27,89 @@
         <div class="col-md-4">
           <div class="start-up">
             <img src="img/start-up.png" alt="start-up">
-            <button id="btn2"  class="button" onclick="showNextQuiz(2)">Run a startup</button>
+            <button id="btn2"  class="button" onclick="showNextQuiz(1, 'startup')">Run a startup</button>
           </div>
         </div>
         <!-- 3rd row -->
         <div class="col-md-4">
           <div class="fun">
             <img src="img/built-fun.png" alt="fun">
-            <button id="btn3" class="button btn3" onclick="showNextQuiz(2)"> Build somthing fun</button>
+            <button id="btn3" class="button" onclick="showNextQuiz(1,'fun')"> Build somthing fun</button>
           </div>
         </div>
       </div>
-
-
     </div> 
 
-<!--    Quiz 2-->
-
-
-    <div id="sec-2">
-      <h1>Quiz 2:: Why Do You Want to Learn to Code?</h1>
+<!--  section 1-->
+    <div id="sec-1">
+      <h1>Quiz 2:What Sort of Developer Do You Want to Be?</h1>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-3">
           <div class="dev">
-            <img src="img/dev.png" alt="dev">
-            <button id="btn1" class="button btn1" onclick="showNextQuiz(3)">Be a professional developer</button>
+            <img src="img/sec-2game.png" alt="game"/>
+            <button id="btn1" class="button btn1" onclick="showNextQuiz(2,'Game')">Game</button>
           </div>
-          
         </div>
         <!-- 2nd row -->
-        <div class="col-md-4">
-          <div class="start-up">
-            <img src="img/start-up.png" alt="start-up">
-            <button id="btn2"  class="button" onclick="showNextQuiz(3)">Run a startup</button>
+        <div class="col-3">
+          <div class="dev">
+            <img src="img/sec-2-web.png" alt="web">
+            <button id="btn1" class="button btn1" onclick="showNextQuiz(2,'Web')">Web</button>
+          </div>
+        </div> 
+        <!-- 3rd row -->
+        <div class="col-3">
+          <div class="dev">
+            <img src="img/sec-2-moble.png"  alt="moble">
+            <button id="btn1" class="button btn1" onclick="showNextQuiz(2,'Mobile')">Mobile</button>
           </div>
         </div>
-        <!-- 3rd row -->
-        <div class="col-md-4">
-          <div class="fun">
-            <img src="img/built-fun.png" alt="fun">
-            <button id="btn3" class="button btn3" onclick="showNextQuiz(2)"> Build somthing fun</button>
+        <!-- 4th row -->
+        <div class="col-3">
+          <div class="dev">
+            <img src="img/sec-2-dest.png" alt="dest">
+            <button id="btn1" class="button btn1" onclick="showNextQuiz(2,'Desktop')">Desktop</button>
           </div>
         </div>
       </div>
-
-
     </div>
 
 
-    <!--    Result-->
+
+ <!-- section 2 -->
+ <div id="sec-2">
+  <h1>Quiz 3:What Sort of Developer Do You Want to Be?</h1>
+  <div class="row">
+    <div class="col-3">
+      <div class="dev">
+        <img src="img/sec-2game.png" alt="game">
+        <button id="btn1" class="button btn1" onclick="showNextQuiz(3)">Game</button>
+      </div>
+    </div>
+    <!-- 2nd row -->
+    <div class="col-3">
+      <div class="dev">
+        <img src="img/sec-2-web.png" alt="web">
+        <button id="btn1" class="button btn1" onclick="showNextQuiz(3)">Web</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- section 3 -->
 
 
     <div id="sec-3">
-      <h1>Quiz 2:: Result?</h1>
+      <h1>Result</h1>
       <div class="row">
-        
-      </div>
-
-
+        <div class="col-3">
+          <div id="result">
+            
+          </div>
+        </div>
+       
     </div>
-
+    
 
 
     <!--end-->
