@@ -6,6 +6,9 @@ $(document).ready(function(){
   $("#sec-1").hide();
   $("#sec-2").hide();
   $("#sec-3").hide();
+  $("#sec-4").hide();
+  $("#sec-5").hide();
+  $("#sec-6").hide();
 });
 
 function showNextQuiz(id, answer){
