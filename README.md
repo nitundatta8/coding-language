@@ -7,7 +7,7 @@
 ## Setup
   - Clone this repository.
   - View in browser
-  - [Link](https://github.com/nitundatta8/coding-language/tree/gh-pages)
+  - [Link](https://github.com/nitundatta8/coding-language)
 
 ### Technology Used
   - Html
