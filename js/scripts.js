@@ -21,7 +21,7 @@ function showNextQuiz(id, answer){
 
   if(nextSection===5){
       console.log(answerList)
-      var result = "C#"
+      var result = "C#";
       if(answerList[0]==='developer' && answerList[1]==='Web' && answerList[2]==='UX' ){
         result="Since You like Web Development and UI, Javascript is good for you";
       }else if(answerList[0]==='fun' && answerList[1]==='Web' &&  answerList[2]==='UX' ){
@@ -36,8 +36,6 @@ function showNextQuiz(id, answer){
       }
       $("#result").text(result);
   }
-
-
 }
 
 //1 --> developer  startup fun
