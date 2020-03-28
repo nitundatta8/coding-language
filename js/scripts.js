@@ -19,7 +19,7 @@ function showNextQuiz(id, answer){
   $("#sec-"+currentSection).hide();
   $("#sec-"+nextSection).show();
 
-  if(nextSection==5){
+  if(nextSection===5){
       console.log(answerList)
       var result = "C#"
       if(answerList[0]==='developer' && answerList[1]==='Web' && answerList[2]==='UX' ){
